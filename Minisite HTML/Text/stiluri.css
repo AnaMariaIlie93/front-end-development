@@ -1,0 +1,30 @@
+.fullheight{
+    height:100%;
+    margin:0;
+}
+
+.meniu{
+   height: 100%;
+   width: 30%;
+   float: left;
+   background-color: beige;
+}
+.continut{
+   height: 100%;
+   background-color:#7fffd457;
+   float: left;
+   width: 70%;
+   overflow: auto;
+   
+}
+.imagine{
+   float:left;
+}
+.tabel{
+    border:2px solid green;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:10px;
+}
+.tabel td{
+    border-bottom: 1px solid green;
+}
