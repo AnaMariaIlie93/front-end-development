@@ -1,0 +1,26 @@
+a:link{
+    color:green;
+}
+a:last-of-type{
+    color:red;
+}
+a:visited{
+    color:green;
+}
+
+#second-div p:nth-child(odd){
+    color:red;
+}
+#second-div p:nth-child(even){
+    color:blue;
+}
+
+#first-div > p::after{
+    content: "- NEW";
+    color:yellow;
+}
+
+body > p:last-of-type:hover{
+    font-style: italic;
+    cursor:pointer;
+}
